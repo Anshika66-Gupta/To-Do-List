@@ -1,0 +1,77 @@
+body{
+
+font-family: 'Raleway', sans-serif;
+background: #BBD2C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
+}
+.fa-pencil-alt{
+    float: right;
+    padding-right: 4px;
+}
+.container{
+    position: relative;
+    top: 100px;
+   
+    width: 400px;
+     
+    color: white;
+    padding: 0px;
+    
+}
+h1{
+    color: white;
+padding-left: 5px;
+font-size: 25px;
+
+ 
+        
+}
+li{
+    color: black;
+    
+}
+.selected{
+    color: grey;
+    text-decoration: line-through;
+}
+input{
+    width: 400px;
+    color:#138496; 
+
+}
+.form-control{
+
+    margin: 0px;
+    
+  
+}
+#heading{
+    padding-top: 5px;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,0.2);
+    padding: 6px;
+border-radius: 5px;
+}
+li:nth-of-type(2n){
+    background: #f9f9f9;
+}
+span{
+
+  
+
+}
+
+.list-group-item{
+  padding-left:5px;
+}
+.fa-trash-alt{
+    margin: 10px;
+
+    
+}
+.bold{
+    font-weight: bold;
+}
